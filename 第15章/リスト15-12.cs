@@ -20,7 +20,7 @@ namespace Example
 
         private static void ReadSample()
         {
-            var file = new StreamReader("test.txt");  // ファイルを読み込む準備
+            var file = new StreamReader("C:\temp\test.txt");  // ファイルを読み込む準備
             while (file.EndOfStream == false)
             {
                 var line = file.ReadLine();

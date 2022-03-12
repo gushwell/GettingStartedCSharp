@@ -1,7 +1,7 @@
 // ■リスト15-14：try-finallyによる後処理（return文あり）
 private static void ReadSample()
 {
-    var file = new StreamReader("test.txt");
+    var file = new StreamReader("C:\temp\test.txt");
     try
     {
         while (file.EndOfStream == false)

@@ -1,7 +1,7 @@
 // ■リスト15-15：【×】後処理が正しく行われないコード
 private static void ReadSample()
 {
-    var file = new StreamReader("test.txt");
+    var file = new StreamReader("C:\temp\test.txt");
     while (file.EndOfStream == false)
     {
         var line = file.ReadLine();

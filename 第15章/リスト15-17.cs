@@ -1,7 +1,7 @@
 // ■リスト15-17：using文による後処理
 private static void ReadSample()
 {
-    using (var file = new StreamReader("test.txt"))
+    using (var file = new StreamReader("C:\temp\test.txt"))
     {
         while (file.EndOfStream == false)
         {

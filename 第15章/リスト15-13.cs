@@ -13,7 +13,7 @@ static void Main(string[] args)
 
 private static void ReadSample()
 {
-    var file = new StreamReader("test.txt");
+    var file = new StreamReader("C:\temp\test.txt");
     try
     {
         while (file.EndOfStream == false)
